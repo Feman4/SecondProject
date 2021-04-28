@@ -8,9 +8,7 @@
   margin: 0 auto;
 }
 
-.backgroundgrey{
-  background-color: #E5E5E5;
-}
+
 
 background: #E5E5E5;
 
@@ -202,9 +200,12 @@ background: #E5E5E5;
   margin-left: 74px;
 }
 
+
+
 .form__list--recording{
   display: flex;
   flex-direction: column;
+  vertical-align:middle;
 }
 
 
@@ -214,19 +215,18 @@ background: #E5E5E5;
 
 }
 
+.form__el--mrhtop{
+  margin-top: 19px;
+}
 
 
 
-.form__el:first-child{
+.form__el--marginright{
   margin-right: 85px;  
 }
 
-.form__el:last-child{
+.form__el--margin-left{
   margin-left: 85px;  
-}
-
-.form__el--mot:{
-  margin-left: 0px;  
 }
 
 
@@ -346,4 +346,47 @@ background: #E5E5E5;
 }
 .btn--green{
   background-color:#B5CA00;
+}
+
+
+/* recording
+============*/
+.recording{
+  background-color: #ABABAB;
+  max-height: 100%
+}
+
+.recording__window{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  margin-top: 119px;
+}
+
+.recording__list{
+  background-color: #C4C4C4;
+  padding:54px 83px;
+  border-radius: 10px;
+}
+
+.recordingr_h{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.recording__p{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+
 }
